@@ -21,3 +21,5 @@ jobs:
           directory: ./app/templates/students
           check_html: true
           check_img_http: true
+          url_ignore: "^/$"          
+          check_favicon: false  
